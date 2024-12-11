@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul.nav-menu {
+    display: flex;
+    list-style: none;
+    background: #419648;
+    padding: 10px;
+    justify-content: center;
+}
+
+header nav ul.nav-menu li {
+    margin: 0 15px;
+}
+
+header nav ul.nav-menu li a {
+    color: #7e0d0d;
+    text-decoration: none;
+}
+
+header nav ul.nav-menu li a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #34166b;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #851a46;
+}
